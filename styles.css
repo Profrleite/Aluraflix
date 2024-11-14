@@ -1,0 +1,24 @@
+body {
+color: white;
+background: green;
+}
+
+.videospequenos img{
+    height: 200px;
+    opacity: 0.5;
+}
+
+.videospequenos {
+    display: flex;
+    gap :5px;
+    overflow-x: auto;
+}
+
+.videospequenos img:hover {
+opacity: 1.0;
+border: 3px solid green;
+}
+
+header {
+    font-size: 30px;
+}
